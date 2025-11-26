@@ -7,3 +7,8 @@
 
     set(LIBRARY_NAME MyOwnLibrary)# set the library name to MyOwnLibrary
     set(EXECUTABLE_NAME MyOwnExecutable)# set the executable name to MyOwnExecutable
+
+    add_subdirectory(src) # let cmake know that the source file and the belonging cmake files are in the src folder
+    add_subdirectory(configure) # let cmake know that the configuration files and the belonging cmake files are in the configure folder     
+    add_subdirectory(app) #the app folder contains the main executable and its cmake files
+    
