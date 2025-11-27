@@ -1,0 +1,12 @@
+#pragma once
+#include <cstdint>
+#include <string_view>
+
+static constexpr std::string_view project_name = "@PROJECT_NAME@";
+static constexpr std::string_view project_version = "@PROJECT_VERSION@";
+static constexpr std::string_view project_author = "@PROJECT_AUTHOR@";
+static constexpr std::string_view project_license = "@PROJECT_LICENSE@";    
+static constexpr std::string_view build_type = "@CMAKE_BUILD_TYPE@";
+static constexpr std::string_view compiler_version = "@CMAKE_CXX_COMPILER_VERSION@";
+static constexpr std::string_view operating_system = "@CMAKE_SYSTEM_NAME@";
+static constexpr std::string_view cpp_standard = "@CMAKE_STANDART@";
